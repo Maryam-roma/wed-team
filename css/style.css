@@ -1,49 +1,59 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 body {
-    background-color: #f8f9fa;
+  background-color: #f8f9fa;
 }
 .container-box {
-    display: flex;
-    gap: 15px;
-    justify-content: center;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
 }
 .contact-box {
-    background: white;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.591);
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.591);
 }
 .card-title {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 /* Start Contacts */
 .section-title {
-    font-weight: bold;
-    border: 1px solid black;
-    display: inline-block;
-    padding: 5px 20px;
-    position: relative;
-    border-radius: 5px;
+  font-weight: bold;
+  border: 1px solid black;
+  display: inline-block;
+  padding: 5px 20px;
+  position: relative;
+  border-radius: 5px;
 }
 section .dot {
-    font-size: 100px;
+  font-size: 100px;
 }
 /* End Contacts */
 
 /* Start Footer */
 footer {
-    background-color: #8bc2ed;
-    text-align: center;
-    margin-top: 100px;
+  background-color: #8bc2ed;
+  text-align: center;
+  margin-top: 100px;
 }
 footer p {
-    color: #eee;
+  color: #eee;
 }
 footer span {
-    color: #ffc2c2;
+  color: #ffc2c2;
 }
 /* End Footer */
+/* Start section 1 */
+@media (min-width: 576px) and (max-width: 1200px) {
+  .section-1 .container {
+    margin-left: -90px;
+  }
+  .section-1 .container.mt-2.row {
+    margin-left: -12px;
+  }
+}
+/* End section 1 */
