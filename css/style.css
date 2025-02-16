@@ -245,7 +245,7 @@ footer span {
   color: #575050a8;
   margin-top: -16px;
 }
-@media (min-width: 200px) and (max-width: 1200px) {
+@media (min-width: 200px) and (max-width: 800px) {
   .container-box {
     display: flex;
     flex-direction: column;
