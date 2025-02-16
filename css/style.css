@@ -168,9 +168,7 @@ footer span {
     border-radius: 8px;
     margin-right: 404px;
     margin-left: -390px;
-
   }
-  
 }
 .section .services {
   text-align: center;
@@ -250,6 +248,5 @@ footer span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
   }
 }
