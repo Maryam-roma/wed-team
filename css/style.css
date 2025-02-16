@@ -155,10 +155,22 @@ footer span {
 /* omnia*/
 
 /*nada */
-@media (max-width: 767px) {
-  html {
-    width: 612px;
+@media (min-width: 576px) and (max-width: 1200px) {
+  .section .writing2,
+  .section .writing3 {
+    width: 250px;
+    text-align: center;
+    font-family: emoji;
+    font-weight: lighter;
+    margin-top: 100px;
+    border: 1px solid #c0bebe66;
+    box-shadow: 0px 1px 6px #8080804a;
+    border-radius: 8px;
+    margin-right: 404px;
+    margin-left: -390px;
+
   }
+  
 }
 .section .services {
   text-align: center;
